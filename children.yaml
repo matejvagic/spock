@@ -1,0 +1,9 @@
+train: ../datasets/train_children
+val: ../datasets/test_children
+test: ../datasets/test_children
+
+# number of classes
+nc: 1
+
+# class names
+names: ["child",]
