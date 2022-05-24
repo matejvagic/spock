@@ -1,9 +1,9 @@
 path: ../datasets/children  # dataset root dir
-train: images  # train images (relative to 'path') 128 images
-val: images  # val images (relative to 'path') 128 images
+train: train/images  # train images (relative to 'path') 128 images
+val: val/images  # val images (relative to 'path') 128 images
 
 # number of classes
-nc: 1
+nc: 2
 
 # class names
-names: ["child"]
+names: ["child", "adult"]
