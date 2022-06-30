@@ -1,0 +1,6 @@
+conda install -c anaconda cudnn &&
+apt-get update &&
+apt-get install ffmpeg libsm6 libxext6  -y &&
+pip uninstall Pillow &&
+apt-get install libfreetype6-dev &&
+pip install Pillow seaborn  opencv-python==4.1.2.30
